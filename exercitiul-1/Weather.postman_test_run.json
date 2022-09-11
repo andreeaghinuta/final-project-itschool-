@@ -1,0 +1,150 @@
+{
+	"id": "eb105468-b2fd-4a6e-8dc7-46dfbe91aa55",
+	"name": "Weather",
+	"timestamp": "2022-09-11T14:45:45.568Z",
+	"collection_id": "23286239-e88600a1-aaeb-4992-8dd4-40a067600949",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "87102e39-8a08-4684-89ce-cafa6acc4d04",
+			"name": "5DaysMeteo",
+			"url": "https://weatherapi-com.p.rapidapi.com/forecast/3hourly?lat=35.5&lon=-78.5&units=metric&lang=ro",
+			"time": 1780,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1780
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1c82eb31-2c44-482b-bfca-47e94db69415",
+			"name": "CurrentDataOfALocation",
+			"url": "https://weatherapi-com.p.rapidapi.com/current?lon=21.90&lat=-33.6",
+			"time": 312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				312
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "03f95079-a896-4f89-9d05-a56a484c4375",
+			"name": "1Hour/MinutelyForecast(Nowcast)",
+			"url": "https://weatherapi-com.p.rapidapi.com/forecast/minutely?lat=29.92&lon=-19.10",
+			"time": 295,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				295
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "89a4367b-3bdf-420e-b8ee-055aeedbd34f",
+			"name": "16DayForecast",
+			"url": "https://weatherapi-com.p.rapidapi.com/forecast/daily?lat=-65.18&lon=18.24&lang=en&units=metric",
+			"time": 281,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				281
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "819eeaa1-3201-4417-8c2f-f7ccafc55bf6",
+			"name": "120HourForecast",
+			"url": "https://weatherapi-com.p.rapidapi.com/forecast/hourly?lat=-4.41&lon=36.76&hours=150",
+			"time": 304,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				304
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f0b89228-175c-4cbb-9e7c-37e51d16dc14",
+			"name": "SevereWeatherAlerts",
+			"url": "https://weatherapi-com.p.rapidapi.com/alerts?lat=52&lon=9",
+			"time": 287,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				287
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3259,
+	"collection": {
+		"requests": [
+			{
+				"id": "87102e39-8a08-4684-89ce-cafa6acc4d04",
+				"method": "GET"
+			},
+			{
+				"id": "1c82eb31-2c44-482b-bfca-47e94db69415",
+				"method": "GET"
+			},
+			{
+				"id": "03f95079-a896-4f89-9d05-a56a484c4375",
+				"method": "GET"
+			},
+			{
+				"id": "89a4367b-3bdf-420e-b8ee-055aeedbd34f",
+				"method": "GET"
+			},
+			{
+				"id": "819eeaa1-3201-4417-8c2f-f7ccafc55bf6",
+				"method": "GET"
+			},
+			{
+				"id": "f0b89228-175c-4cbb-9e7c-37e51d16dc14",
+				"method": "GET"
+			}
+		]
+	}
+}
